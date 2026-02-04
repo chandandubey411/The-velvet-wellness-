@@ -10,42 +10,42 @@ export default function Contact() {
           </h1>
 
           <p className="text-gray-600 mb-8">
-            Get in touch with Midori Spa Noida 76 for appointments, queries, or
-            personalized spa experiences.
+            Get in touch with The Velvet Wellness for appointments, queries, or
+            personalized luxury spa experiences.
           </p>
 
           <div className="space-y-5 text-dark-800">
             <div>
               <p className="font-semibold">Business Name</p>
-              <p>Midori Spa Noida 76</p>
+              <p>The Velvet Wellness</p>
             </div>
 
             <div>
               <p className="font-semibold">Phone</p>
               <a
-                href="tel:9818335303"
+                href="tel:6395050004"
                 className="text-primary-600 hover:underline"
               >
-                9818335303
+                6395050004
               </a>
             </div>
 
             <div>
               <p className="font-semibold">Email</p>
               <a
-                href="mailto:midorispa76@gmail.com"
+                href="mailto:thevelvetwellnessspa@gmail.com"
                 className="text-primary-600 hover:underline"
               >
-                midorispa76@gmail.com
+                thevelvetwellnessspa@gmail.com
               </a>
             </div>
 
             <div>
               <p className="font-semibold">Address</p>
               <p>
-                Shop No-11, Amarpali Crystal Homes, <br />
-                Amarpali Silicon City, Sector 76, Noida, <br />
-                Uttar Pradesh 201316
+                1st Floor, Rise Madison Square, <br />
+                Sector 1, Bisrakh Jalalpur, Greater Noida, <br />
+                Uttar Pradesh 201318
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Contact() {
             <input
               type="hidden"
               name="subject"
-              value="New Contact Form Submission - Midori Spa Noida 76"
+              value="New Contact Form Submission - The Velvet Wellness"
             />
 
             <div>

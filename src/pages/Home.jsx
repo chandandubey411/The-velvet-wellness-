@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section className="bg-secondary-50 min-h-[90vh] flex items-center">
       <div className="max-w-[1400px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        
+
         {/* LEFT CONTENT */}
         <div>
           <span className="inline-block mb-3 px-4 py-1 text-sm font-semibold text-primary-600 bg-primary-100 rounded-full">
@@ -12,13 +12,14 @@ export default function Home() {
           </span>
 
           <h1 className="mt-4 text-4xl md:text-5xl font-extrabold text-dark-900 leading-tight">
-            Midori Spa Noida 76
+            The Velvet Wellness
           </h1>
 
           <p className="mt-6 text-gray-600 text-lg leading-relaxed max-w-xl">
-            A peaceful wellness destination designed for deep relaxation,
-            rejuvenation, and complete mind & body balance. Experience premium
-            massage and spa therapies in a calm, luxurious environment.
+            An exclusive wellness destination crafted for deep relaxation,
+            rejuvenation, and complete mind & body harmony. Indulge in premium
+            massage and spa therapies within a calm, elegant, and luxurious
+            environment.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -30,7 +31,7 @@ export default function Home() {
             </Link>
 
             <a
-              href="tel:9818335303"
+              href="tel:6395050004"
               className="border-2 border-primary-600 text-primary-600 px-7 py-3 rounded-md font-bold hover:bg-primary-600 hover:text-white transition"
             >
               Call Now
@@ -43,7 +44,7 @@ export default function Home() {
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src="girls/home1.png"
-              alt="Midori Spa Noida 76 - Luxury Spa"
+              alt="The Velvet Wellness - Luxury Spa in Greater Noida"
               className="w-full h-full object-cover"
             />
           </div>

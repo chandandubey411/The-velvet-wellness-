@@ -9,10 +9,10 @@ export default function About() {
             About Us
           </span>
           <h1 className="text-3xl md:text-4xl font-extrabold text-dark-900">
-            Midori Spa Noida 76
+            The Velvet Wellness
           </h1>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            A peaceful retreat where luxury, wellness, and relaxation come together.
+            Where luxury wellness, comfort, and deep relaxation come together.
           </p>
         </div>
 
@@ -26,23 +26,23 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              Midori Spa Noida 76 is a premium wellness destination thoughtfully
-              created to offer complete relaxation of the body, mind, and soul.
-              Our spa provides a calm and luxurious environment where you can
-              disconnect from daily stress and experience true rejuvenation.
+              The Velvet Wellness is a premium spa and wellness destination
+              designed for those who seek relaxation, balance, and luxury.
+              Our serene space offers a calm and elegant environment where you
+              can unwind and reconnect with your inner peace.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              We specialize in professional massage therapies and spa treatments
-              delivered by trained and experienced therapists. Using high-quality
-              oils and proven techniques, every session is personalized to meet
-              your comfort and wellness needs.
+              We specialize in professional massage therapies and exclusive spa
+              treatments delivered by highly trained therapists. Using
+              high-quality oils and refined techniques, each session is
+              customized to provide maximum comfort and rejuvenation.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              Whether you seek deep relaxation, stress relief, or a refreshing
-              wellness experience, Midori Spa Noida 76 is the perfect place to
-              unwind, restore balance, and recharge your energy.
+              Whether you are looking to relieve stress, refresh your body, or
+              indulge in a luxury wellness experience, The Velvet Wellness is
+              your perfect destination for relaxation and renewal.
             </p>
           </div>
 
@@ -51,11 +51,11 @@ export default function About() {
             <ul className="space-y-6">
               <li>
                 <h3 className="font-bold text-dark-900">
-                  🌿 Premium Spa Experience
+                  🌿 Luxury Wellness Experience
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
                   Carefully curated therapies in a peaceful, hygienic, and
-                  soothing environment.
+                  elegant environment.
                 </p>
               </li>
 
@@ -64,27 +64,27 @@ export default function About() {
                   💆‍♀️ Expert Therapists
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
-                  Skilled professionals with years of experience in massage and
+                  Skilled professionals with deep expertise in massage and
                   wellness therapies.
                 </p>
               </li>
 
               <li>
                 <h3 className="font-bold text-dark-900">
-                  ✨ Relax & Rejuvenate
+                  ✨ Relax, Restore & Rejuvenate
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
-                  A perfect balance of luxury, comfort, and personalized care.
+                  A perfect blend of luxury, comfort, and personalized care.
                 </p>
               </li>
 
               <li>
                 <h3 className="font-bold text-dark-900">
-                  📍 Prime Location – Sector 76, Noida
+                  📍 Prime Location – Greater Noida
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
-                  Conveniently located in Amarpali Silicon City for easy access
-                  and a welcoming atmosphere.
+                  Located at Rise Madison Square, Sector 1, Bisrakh Jalalpur,
+                  Greater Noida for easy access and convenience.
                 </p>
               </li>
             </ul>

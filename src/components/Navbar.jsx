@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link to="/">
-          <img src={logo} alt="Midori Spa Noida 76" className="h-20" />
+          <img src={logo} alt="The Velvet Wellness" className="h-20" />
         </Link>
 
         {/* Desktop Menu */}
@@ -89,7 +89,7 @@ export default function Navbar() {
           />
 
           <a
-            href="https://wa.me/919818335303"
+            href="https://wa.me/916395050004"
             target="_blank"
             className="text-primary-700 font-medium"
           >
@@ -123,7 +123,7 @@ export default function Navbar() {
 
             {/* Header */}
             <div className="flex items-center justify-between px-5 py-4 border-b border-gray-700">
-              <img src={logo} alt="Midori Spa Noida 76" className="h-10" />
+              <img src={logo} alt="The Velvet Wellness" className="h-10" />
               <button
                 className="text-2xl"
                 onClick={() => setMobileOpen(false)}

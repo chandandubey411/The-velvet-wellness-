@@ -9,7 +9,7 @@ export default function Appointment() {
             Book an Appointment
           </h1>
           <p className="mt-4 text-gray-600">
-            Share your details and our team from Midori Spa Noida 76 will contact
+            Share your details and our team from The Velvet Wellness will contact
             you shortly.
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function Appointment() {
             <input
               type="hidden"
               name="subject"
-              value="New Appointment Request - Midori Spa Noida 76"
+              value="New Appointment Request - The Velvet Wellness"
             />
 
             {/* Name */}

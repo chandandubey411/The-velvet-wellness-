@@ -78,7 +78,7 @@ export default function Massage() {
               >
                 <img
                   src={img}
-                  alt="Midori Spa Therapist"
+                  alt="The Velvet Wellness Therapist"
                   className="w-full h-96 object-cover"
                 />
               </div>

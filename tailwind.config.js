@@ -5,24 +5,24 @@ export default {
     extend: {
       colors: {
         primary: {
-          50: "#f0fdf4",
-          100: "#dcfce7",
-          500: "#22c55e",
-          600: "#16a34a",
-          700: "#15803d",
+          50: "#f7f2fa",
+          100: "#efe5f5",
+          500: "#7b3fa1", // velvet purple
+          600: "#6a338c",
+          700: "#55286f",
         },
         secondary: {
-          50: "#fafaf9",
-          100: "#f5f5f4",
-          200: "#e7e5e4",
+          50: "#fdfcfb", // ivory
+          100: "#f6f4f1",
+          200: "#ebe7e1",
         },
         accent: {
-          500: "#c9a24d", // gold
-          600: "#b08a3e",
+          500: "#d4af37", // champagne gold
+          600: "#b8962e",
         },
         dark: {
-          800: "#1c1c1c",
-          900: "#0f0f0f",
+          800: "#1e1b22",
+          900: "#120f16",
         },
       },
     },
