@@ -39,15 +39,18 @@ function App() {
           <Route path="/services" element={<Service />} />
         </Routes>
       </main>
+
+      {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/919217068916 "
+        href="https://wa.me/919818335303"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-5 right-5 z-50 flex items-center justify-center w-14 h-14 rounded-full text-white md:text-3xl text-3xl shadow-lg transition-transform duration-300 hover:scale-110"
+        className="fixed bottom-5 right-5 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-primary-600 hover:bg-primary-700 text-white text-3xl shadow-lg transition-transform duration-300 hover:scale-110"
         aria-label="Chat on WhatsApp"
       >
         💬
       </a>
+
       <Footer />
     </BrowserRouter>
   );

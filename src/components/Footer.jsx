@@ -2,16 +2,17 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1f2933] text-gray-300">
+    <footer className="bg-dark-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-6 py-14 grid gap-10 md:grid-cols-4">
         {/* Brand */}
         <div>
           <h2 className="text-xl font-bold text-white mb-4">
-            HEAVEN RETREAT SPA
+            MIDORI SPA NOIDA 76
           </h2>
           <p className="text-sm leading-relaxed">
-            Experience premium relaxation and rejuvenation with our professional
-            spa and massage therapies in a calm, luxurious environment.
+            Experience deep relaxation and rejuvenation at Midori Spa Noida 76,
+            where premium massage and spa therapies meet a calm, luxurious
+            environment.
           </p>
         </div>
 
@@ -20,22 +21,22 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link to="/" className="hover:text-pink-500">
+              <Link to="/" className="hover:text-primary-500">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-pink-500">
+              <Link to="/about" className="hover:text-primary-500">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/appointment" className="hover:text-pink-500">
+              <Link to="/appointment" className="hover:text-primary-500">
                 Book Appointment
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-pink-500">
+              <Link to="/contact" className="hover:text-primary-500">
                 Contact Us
               </Link>
             </li>
@@ -59,22 +60,22 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              📍 Shop- LG-19, Commercial Complex, Street 76, Amarpali Silicon
-              City, Sector 76, Noida, Uttar Pradesh 201316
+              📍 Shop No-11, Amarpali Crystal Homes, Amarpali Silicon City,
+              Sector 76, Noida, Uttar Pradesh 201316
             </li>
             <li>
               📞{" "}
-              <a href="tel:9217068916" className="hover:text-pink-500">
-                9217068916
+              <a href="tel:9818335303" className="hover:text-primary-500">
+                9818335303
               </a>
             </li>
             <li>
               ✉️{" "}
               <a
-                href="mailto:rtheaven76@gmail.com"
-                className="hover:text-pink-500"
+                href="mailto:midorispa76@gmail.com"
+                className="hover:text-primary-500"
               >
-                rtheaven76@gmail.com
+                midorispa76@gmail.com
               </a>
             </li>
           </ul>
@@ -84,7 +85,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700">
         <div className="max-w-7xl mx-auto px-6 py-4 text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} Heaven Retreat Spa. All rights reserved.
+          © {new Date().getFullYear()} Midori Spa Noida 76. All rights reserved.
         </div>
       </div>
     </footer>

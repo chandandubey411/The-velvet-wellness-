@@ -4,12 +4,12 @@ import spas from "../data/spa.json";
 
 export default function Service() {
   return (
-    <section className="bg-[#eef2f3] pt-28 pb-20">
+    <section className="bg-secondary-50 pt-28 pb-20">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* PAGE HEADER */}
         <div className="text-center mb-16">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-dark-900">
             Our Services
           </h1>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
@@ -20,7 +20,7 @@ export default function Service() {
 
         {/* ================= MASSAGE SERVICES ================= */}
         <div className="mb-20">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl font-bold text-dark-900 mb-8">
             Massage Services
           </h2>
 
@@ -37,7 +37,7 @@ export default function Service() {
                 />
 
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900">
+                  <h3 className="text-xl font-semibold text-dark-900">
                     {item.title}
                   </h3>
 
@@ -52,7 +52,7 @@ export default function Service() {
 
                   <Link
                     to={`/massage/${item.slug}`}
-                    className="inline-block mt-5 bg-pink-600 text-white px-5 py-2 rounded-md text-sm font-semibold hover:bg-pink-700"
+                    className="inline-block mt-5 bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-semibold transition"
                   >
                     View Details
                   </Link>
@@ -64,7 +64,7 @@ export default function Service() {
 
         {/* ================= SPA SERVICES ================= */}
         <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl font-bold text-dark-900 mb-8">
             Spa Services
           </h2>
 
@@ -81,7 +81,7 @@ export default function Service() {
                 />
 
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900">
+                  <h3 className="text-xl font-semibold text-dark-900">
                     {item.title}
                   </h3>
 
@@ -96,7 +96,7 @@ export default function Service() {
 
                   <Link
                     to={`/spa/${item.slug}`}
-                    className="inline-block mt-5 bg-pink-600 text-white px-5 py-2 rounded-md text-sm font-semibold hover:bg-pink-700"
+                    className="inline-block mt-5 bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-semibold transition"
                   >
                     View Details
                   </Link>

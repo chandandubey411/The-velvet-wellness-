@@ -1,15 +1,16 @@
 export default function Appointment() {
   return (
-    <section className="bg-[#eef2f3] min-h-screen pt-28 pb-20">
+    <section className="bg-secondary-50 min-h-screen pt-28 pb-20">
       <div className="max-w-5xl mx-auto px-6">
-        
+
         {/* Heading */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-dark-900">
             Book an Appointment
           </h1>
           <p className="mt-4 text-gray-600">
-            Fill in your details and our team will contact you shortly.
+            Share your details and our team from Midori Spa Noida 76 will contact
+            you shortly.
           </p>
         </div>
 
@@ -24,13 +25,13 @@ export default function Appointment() {
             <input
               type="hidden"
               name="access_key"
-              value="51d7e4e3-7835-423c-8bea-2c5da85fe471"
+              value="2c388088-80ff-415d-bfaa-efb126c84bda"
             />
 
             <input
               type="hidden"
               name="subject"
-              value="New Appointment Request - Heaven Retreat Spa"
+              value="New Appointment Request - Midori Spa Noida 76"
             />
 
             {/* Name */}
@@ -43,7 +44,7 @@ export default function Appointment() {
                 name="name"
                 required
                 placeholder="Your full name"
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
             </div>
 
@@ -57,7 +58,7 @@ export default function Appointment() {
                 name="phone"
                 required
                 placeholder="Your phone number"
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
             </div>
 
@@ -71,7 +72,7 @@ export default function Appointment() {
                 name="email"
                 required
                 placeholder="Your email address"
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
             </div>
 
@@ -83,7 +84,7 @@ export default function Appointment() {
               <select
                 name="service"
                 required
-                className="w-full border rounded-md px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-primary-500"
               >
                 <option value="">Choose a service</option>
                 <option>Full Body Massage</option>
@@ -107,7 +108,7 @@ export default function Appointment() {
                 type="date"
                 name="date"
                 required
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
             </div>
 
@@ -120,7 +121,7 @@ export default function Appointment() {
                 type="time"
                 name="time"
                 required
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
             </div>
 
@@ -133,14 +134,14 @@ export default function Appointment() {
                 name="message"
                 rows="4"
                 placeholder="Any specific requirement or message"
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
               ></textarea>
             </div>
 
             {/* Submit */}
             <button
               type="submit"
-              className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 rounded-md transition"
+              className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 rounded-md transition"
             >
               Book Appointment
             </button>

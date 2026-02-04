@@ -9,7 +9,7 @@ export default function Spa() {
   if (!spa) {
     return (
       <div className="pt-32 text-center">
-        <h2 className="text-2xl font-bold text-gray-800">
+        <h2 className="text-2xl font-bold text-dark-900">
           Spa Service Not Found
         </h2>
       </div>
@@ -17,13 +17,13 @@ export default function Spa() {
   }
 
   return (
-    <section className="pt-28 pb-20 bg-[#eef2f1]">
+    <section className="pt-28 pb-20 bg-secondary-50">
       <div className="max-w-[1200px] mx-auto px-6">
-        
+
         {/* HEADER */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div>
-            <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-dark-900">
               {spa.title}
             </h1>
 
@@ -48,7 +48,7 @@ export default function Spa() {
 
         {/* BENEFITS */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl font-bold text-dark-900 mb-6">
             Benefits
           </h2>
 
@@ -66,7 +66,7 @@ export default function Spa() {
 
         {/* GALLERY */}
         <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl font-bold text-dark-900 mb-6">
             Our Therapists
           </h2>
 
@@ -78,7 +78,7 @@ export default function Spa() {
               >
                 <img
                   src={img}
-                  alt="Spa Therapist"
+                  alt="Midori Spa Therapist"
                   className="w-full h-96 object-cover"
                 />
               </div>

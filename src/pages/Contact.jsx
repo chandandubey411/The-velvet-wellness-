@@ -1,50 +1,50 @@
 export default function Contact() {
   return (
-    <section className="bg-[#eef2f3] min-h-screen pt-28 pb-20">
+    <section className="bg-secondary-50 min-h-screen pt-28 pb-20">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
 
         {/* LEFT : CONTACT DETAILS */}
         <div>
-          <h1 className="text-3xl font-extrabold text-gray-900 mb-4">
+          <h1 className="text-3xl font-extrabold text-dark-900 mb-4">
             Contact Us
           </h1>
 
           <p className="text-gray-600 mb-8">
-            Get in touch with us for appointments, queries, or personalized spa
-            experiences.
+            Get in touch with Midori Spa Noida 76 for appointments, queries, or
+            personalized spa experiences.
           </p>
 
-          <div className="space-y-5 text-gray-800">
+          <div className="space-y-5 text-dark-800">
             <div>
               <p className="font-semibold">Business Name</p>
-              <p>HEAVEN RETREAT SPA</p>
+              <p>Midori Spa Noida 76</p>
             </div>
 
             <div>
               <p className="font-semibold">Phone</p>
               <a
-                href="tel:9217068916"
-                className="text-pink-600 hover:underline"
+                href="tel:9818335303"
+                className="text-primary-600 hover:underline"
               >
-                9217068916
+                9818335303
               </a>
             </div>
 
             <div>
               <p className="font-semibold">Email</p>
               <a
-                href="mailto:rtheaven76@gmail.com"
-                className="text-pink-600 hover:underline"
+                href="mailto:midorispa76@gmail.com"
+                className="text-primary-600 hover:underline"
               >
-                rtheaven76@gmail.com
+                midorispa76@gmail.com
               </a>
             </div>
 
             <div>
               <p className="font-semibold">Address</p>
               <p>
-                Shop- LG-19, Commercial Complex, Street 76, <br />
-                Amarpali Silicon City, Sector 76, Noida, <br/>
+                Shop No-11, Amarpali Crystal Homes, <br />
+                Amarpali Silicon City, Sector 76, Noida, <br />
                 Uttar Pradesh 201316
               </p>
             </div>
@@ -53,7 +53,7 @@ export default function Contact() {
 
         {/* RIGHT : CONTACT FORM */}
         <div className="bg-white rounded-xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl font-bold text-dark-900 mb-6">
             Send Us a Message
           </h2>
 
@@ -66,14 +66,13 @@ export default function Contact() {
             <input
               type="hidden"
               name="access_key"
-              value="51d7e4e3-7835-423c-8bea-2c5da85fe471"
+              value="2c388088-80ff-415d-bfaa-efb126c84bda"
             />
 
-            {/* Redirect optional */}
             <input
               type="hidden"
               name="subject"
-              value="New Contact Form Submission - Heaven Retreat Spa"
+              value="New Contact Form Submission - Midori Spa Noida 76"
             />
 
             <div>
@@ -84,7 +83,7 @@ export default function Contact() {
                 type="text"
                 name="name"
                 required
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
                 placeholder="Your name"
               />
             </div>
@@ -97,7 +96,7 @@ export default function Contact() {
                 type="tel"
                 name="phone"
                 required
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
                 placeholder="Your phone number"
               />
             </div>
@@ -110,7 +109,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 required
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
                 placeholder="Your email"
               />
             </div>
@@ -123,14 +122,14 @@ export default function Contact() {
                 name="message"
                 rows="4"
                 required
-                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary-500"
                 placeholder="Write your message"
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 rounded-md transition"
+              className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 rounded-md transition"
             >
               Send Message
             </button>
