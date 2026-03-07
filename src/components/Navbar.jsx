@@ -89,7 +89,7 @@ export default function Navbar() {
           />
 
           <a
-            href="https://wa.me/916395050004"
+            href="https://wa.me/916395404418"
             target="_blank"
             className="text-primary-700 font-medium"
           >

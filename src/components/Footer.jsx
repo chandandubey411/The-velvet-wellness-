@@ -66,8 +66,8 @@ export default function Footer() {
             </li>
             <li>
               📞{" "}
-              <a href="tel:6395050004" className="hover:text-primary-500">
-                6395050004
+              <a href="tel:6395404418" className="hover:text-primary-500">
+                6395404418
               </a>
             </li>
             <li>
