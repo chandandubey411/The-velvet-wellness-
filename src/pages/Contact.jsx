@@ -23,10 +23,10 @@ export default function Contact() {
             <div>
               <p className="font-semibold">Phone</p>
               <a
-                href="tel:6395404418"
+                href="tel:8874523940"
                 className="text-primary-600 hover:underline"
               >
-                6395404418
+                8874523940
               </a>
             </div>
 

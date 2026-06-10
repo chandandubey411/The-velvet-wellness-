@@ -31,7 +31,7 @@ export default function Home() {
             </Link>
 
             <a
-              href="tel:6395404418"
+              href="tel:8874523940"
               className="border-2 border-primary-600 text-primary-600 px-7 py-3 rounded-md font-bold hover:bg-primary-600 hover:text-white transition"
             >
               Call Now

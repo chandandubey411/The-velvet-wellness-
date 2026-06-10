@@ -42,7 +42,7 @@ function App() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/916395050004"
+        href="https://wa.me/918874523940"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-5 right-5 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-primary-600 hover:bg-primary-700 text-white text-3xl shadow-lg transition-transform duration-300 hover:scale-110"
